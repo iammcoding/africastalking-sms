@@ -6,7 +6,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST" && $_POST['send']){
 
 
 
-$username = 'silexsecure'; // use 'sandbox' for development in the test environment
+$username = ''; // use 'sandbox' for development in the test environment
 $apiKey   = ''; // use your sandbox app API key for development in the test environment
 $AT       = new AfricasTalking($username, $apiKey);
 
