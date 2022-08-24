@@ -7,7 +7,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST" && $_POST['send']){
 
 
 $username = 'silexsecure'; // use 'sandbox' for development in the test environment
-$apiKey   = 'df1042f68545ee405baf89ec7615c121055f10f792f7f09426a746306dab0aac'; // use your sandbox app API key for development in the test environment
+$apiKey   = ''; // use your sandbox app API key for development in the test environment
 $AT       = new AfricasTalking($username, $apiKey);
 
 // Get one of the services
